@@ -251,20 +251,61 @@ textarea:focus {
   }
 }
 
-/* Dark mode preparation */
+/* ✅ Improved Dark mode */
 @media (prefers-color-scheme: dark) {
   body {
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-    color: #f8fafc;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: #ffffff; /* 👈 default text all white */
   }
-  
+
+  h1, h2, h3, h4, h5, h6,
+  p, a, span, li {
+    color: #ffffff !important; /* 👈 force white text */
+  }
+
   .glass {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+  }
+
+  .btn-primary {
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    color: white;
+  }
+
+  .btn-secondary {
+    color: #ffffff;
     background: rgba(255, 255, 255, 0.1);
     border-color: rgba(255, 255, 255, 0.2);
   }
-  
-  .btn-secondary {
-    color: #f8fafc;
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
     background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: #e2e8f0; /* halka gray placeholder */
+  }
+
+  .project-overlay {
+    background: linear-gradient(
+      135deg,
+      rgba(79, 70, 229, 0.85),
+      rgba(124, 58, 237, 0.9)
+    );
+  }
+}
+@media (prefers-color-scheme: dark) {
+  /* Tags fix for dark mode */
+  .tag {
+    background: rgba(255, 255, 255, 0.1); /* halka translucent dark bg */
+    color: #f8fafc; /* white-ish text */
+    border: 1px solid rgba(255, 255, 255, 0.2);
   }
 }

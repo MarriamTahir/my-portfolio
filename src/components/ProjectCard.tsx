@@ -38,7 +38,7 @@ export default function ProjectCard({ project }: { project: Project }) {
           {project.tags.map((t, i) => (
             <span
               key={`${project.id}-${i}-${t}`}
-              className="text-xs bg-gray-100 text-gray-700 px-3 py-1 rounded-full border border-gray-200"
+              className="text-xs bg-gray-100 text-gray-700 px-3 py-1 rounded-full border border-gray-200 tag text-xs px-3 py-1 rounded-full"
             >
               {t}
             </span>
