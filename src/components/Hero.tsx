@@ -58,7 +58,7 @@ export default function Hero() {
             <a
               aria-label="LinkedIn"
               className="w-12 h-12 grid place-items-center rounded-full glass shadow-md transition-all transform hover:scale-110 hover:shadow-2xl hover:bg-[#0077b5] hover:text-white"
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/marriam-tahir-20a40928b"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -68,7 +68,7 @@ export default function Hero() {
             <a
               aria-label="GitHub"
               className="w-12 h-12 grid place-items-center rounded-full glass shadow-md transition-all transform hover:scale-110 hover:shadow-2xl hover:bg-[#333] hover:text-white"
-              href="https://github.com"
+              href="https://github.com/MarriamTahir"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -78,7 +78,7 @@ export default function Hero() {
             <a
               aria-label="Dribbble"
               className="w-12 h-12 grid place-items-center rounded-full glass shadow-md transition-all transform hover:scale-110 hover:shadow-2xl hover:bg-[#ea4c89] hover:text-white"
-              href="https://dribbble.com"
+              href="https://dribbble.com/mari-yoo"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -88,7 +88,7 @@ export default function Hero() {
             <a
               aria-label="Twitter"
               className="w-12 h-12 grid place-items-center rounded-full glass shadow-md transition-all transform hover:scale-110 hover:shadow-2xl hover:bg-[#1da1f2] hover:text-white"
-              href="https://twitter.com"
+              href="https://x.com/marriamtahir53"
               target="_blank"
               rel="noopener noreferrer"
             >
