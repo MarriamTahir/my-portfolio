@@ -83,12 +83,16 @@ export default function Nav() {
 
       {/* Mobile menu */}
       <ul
-        id="mobile-navigation"
-        className={`fixed top-0 right-0 h-full w-4/5 max-w-[420px] bg-white/95 backdrop-blur-lg p-8 transform transition-transform flex flex-col gap-6 z-50 shadow-2xl ${
-          isOpen ? 'translate-x-0' : 'translate-x-full'
-        }`}
-        aria-hidden={isOpen ? "false" : "true"}
-      >
+  id="mobile-navigation"
+  className={`fixed top-0 right-0 h-full w-4/5 max-w-[420px] 
+    bg-white/95 text-gray-800 
+    dark:bg-[#1a1a2e]/95 dark:text-white
+    backdrop-blur-lg p-8 transform transition-transform 
+    flex flex-col gap-6 z-50 shadow-2xl ${
+      isOpen ? 'translate-x-0' : 'translate-x-full'
+    }`}
+  aria-hidden={isOpen ? "false" : "true"}
+>
         <li className="flex justify-end mb-4">
           <button
             type="button"
